@@ -22,7 +22,7 @@ wv.addEventListener('loadcommit', function(evt) {
 	}, function(results) {
 		if (!results || results.length < 1 || results[0].indexOf("play") < 0) return;
 		wv.insertCSS({
-			code: 'iframe#ymbga_app { position: absolute; left: 0; top: 0; margin: 0 !important; height: 640px; } html { overflow-y: hidden !important; overflow-x: hidden; }'
+			code: 'iframe#ymbga_app { position: absolute; left: 0; top: 0; margin: 0 !important; height: 640px; } html { overflow-y: hidden !important; overflow-x: hidden; } .head-bg { display: none; }'
 		});
 	});
 	// Ensure game resources can load, bypassing CORS
