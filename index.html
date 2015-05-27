@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html style="height: 100%; width: 100%;">
+	<head>
+		<title>Milihime Taisen Viewer</title>
+		<link rel="icon" type="image/png" href="icons/16.png">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body style="margin: 0; height: 100%; width: 100%;">
+		<div id="titleBar">
+			<div class="favicon">
+				<span class="helper"></span>
+				<img src="icons/16.png" />
+			</div>
+			<div class="title">Milihime Taisen Viewer</div>
+			<div class="right-panel">
+				<a class="refresh">&#8634;</a><a class="minimize">—</a><span class="close-container"><a class="close">&times;</a></span>
+			</div>
+		</div>
+		<webview src="http://yahoo-mbga.jp/game/12022153/play" partition="persist:milihimeViewer"></webview>
+		<script src="index.js"></script>
+	</body>
+</html>
